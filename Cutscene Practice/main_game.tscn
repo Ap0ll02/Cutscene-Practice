@@ -1,0 +1,173 @@
+[gd_scene load_steps=8 format=3 uid="uid://cpd0ue6yprsj1"]
+
+[ext_resource type="PackedScene" uid="uid://3y2xnkpyen7c" path="res://assets/House_01_Merged.fbx" id="1_jpr3v"]
+[ext_resource type="PackedScene" uid="uid://cbuv8y4xwnfk5" path="res://assets/Terrain_01.fbx" id="2_fyqj8"]
+[ext_resource type="PackedScene" uid="uid://crywrh7as6nac" path="res://assets/Tree_04.fbx" id="3_y2ip7"]
+[ext_resource type="PackedScene" uid="uid://xv74ipslkjei" path="res://assets/LPSciFiCharacter_RIG_EVAFemale.fbx" id="4_drly4"]
+
+[sub_resource type="Animation" id="Animation_owj1d"]
+resource_name = "new_animation"
+length = 15.0
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(52.3474, -0.25, 0, 0.25, 0, 73.202, -0.25, 0, 0.25, 0, 73.202, -0.25, 0, 0.25, 0, -99, -2, 167, 0.5, -2.657),
+"times": PackedFloat32Array(0, 5.7, 7.2, 14.3)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(16.9705, -0.25, 0, 0.25, 0, 20.43, -0.25, 0, 0.25, 0, 20.43, -0.25, 0, 0.25, 0, 37.16, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 5.7, 7.2, 11)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(-629.718, -0.25, 0, 0.25, 0, -545.321, -0.25, 0, 0.25, 0, -545.321, -0.25, 0, 0.25, 0, -545.321, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 5.7, 7.2, 11)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(-0.0959931, -0.25, 0, 0.25, 0, -0.0959931, -0.25, 0, 0.25, 0, -0.0959931, -0.25, 0, 0.25, 0, -0.436332, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 5.7, 7.2, 11)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(-3.12414, -0.25, 0, 0.25, 0, -1.43117, -0.25, 0, 0.25, 0, -1.43117, -0.25, 0, 0.25, 0, -1.43117, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 5.7, 7.2, 11)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0, 0),
+"points": PackedFloat32Array(3.48787e-16, -0.25, 0, 0.25, 0, 3.48787e-16, -0.25, 0, 0.25, 0, 3.48787e-16, -0.25, 0, 0.25, 0, 3.48787e-16, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 5.7, 7.2, 11)
+}
+
+[sub_resource type="Animation" id="Animation_ls8hl"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(52.3474, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(16.9705, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-629.718, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-0.0959931, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-3.12414, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(3.48787e-16, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cvfme"]
+_data = {
+"RESET": SubResource("Animation_ls8hl"),
+"new_animation": SubResource("Animation_owj1d")
+}
+
+[node name="Node3D" type="Node3D"]
+
+[node name="House" parent="." instance=ExtResource("1_jpr3v")]
+transform = Transform3D(6.79, 0, 0, 0, 6.79, 0, 0, 0, 6.79, 100.924, 11.8823, -550.902)
+
+[node name="Root Scene2" parent="." instance=ExtResource("2_fyqj8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 2.08165e-12, 200)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.999848, 0.00167274, -0.0173721, 3.47181e-16, 0.995396, 0.0958458, 0.0174525, 0.0958312, -0.995245, 52.3474, 16.9705, -629.718)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_cvfme")
+}
+
+[node name="Tree" parent="." instance=ExtResource("3_y2ip7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.0462, 8.75421, -523.075)
+
+[node name="Player" parent="." instance=ExtResource("4_drly4")]
+transform = Transform3D(1.58, 0, 0, 0, 1.58, 0, 0, 0, 1.58, 76.7298, 10.5142, -552.962)
