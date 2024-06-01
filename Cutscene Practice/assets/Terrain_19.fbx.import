@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bi0j2dpecpr35"
-path="res://.godot/imported/Tree_06.fbx-0583ac17ed893be3639f4acfc14bdd10.scn"
+uid="uid://b8ga1k5ofdd5f"
+path="res://.godot/imported/Terrain_19.fbx-8aad71129a33748abe51a9999ca30b7a.scn"
 
 [deps]
 
-source_file="res://assets/Tree_06.fbx"
-dest_files=["res://.godot/imported/Tree_06.fbx-0583ac17ed893be3639f4acfc14bdd10.scn"]
+source_file="res://assets/Terrain_19.fbx"
+dest_files=["res://.godot/imported/Terrain_19.fbx-8aad71129a33748abe51a9999ca30b7a.scn"]
 
 [params]
 

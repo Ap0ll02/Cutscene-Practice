@@ -1,0 +1,85 @@
+[gd_scene load_steps=7 format=3 uid="uid://d303w7gr3p3e7"]
+
+[ext_resource type="PackedScene" uid="uid://dbgwlfwuo8ed8" path="res://assets/Terrain_11.fbx" id="1_6w0di"]
+[ext_resource type="Texture2D" uid="uid://dcx42rjgxa2us" path="res://grass-texture_1010426-485-295220354.jpg" id="1_wterh"]
+[ext_resource type="PackedScene" uid="uid://c00k8ek3gbj2k" path="res://assets/Terrain_12.fbx" id="2_b77or"]
+[ext_resource type="PackedScene" uid="uid://do5x603132xyk" path="res://assets/Terrain_13.fbx" id="3_k414v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ccvca"]
+albedo_texture = ExtResource("1_wterh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0rt6"]
+metallic = 0.43
+metallic_specular = 0.55
+ao_light_affect = 0.25
+heightmap_scale = 0.74
+
+[node name="Scene" type="CSGBox3D"]
+transform = Transform3D(0.375, 0, 0, 0, 0.375, 0, 0, 0, 0.375, 0, 0, 39.7411)
+material_override = SubResource("StandardMaterial3D_ccvca")
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1000, 0, 0, 0, 1, 0, 0, 0, 1200, 190.823, 0, -366.037)
+material = SubResource("StandardMaterial3D_q0rt6")
+
+[node name="Moutains" type="Node3D" parent="."]
+
+[node name="Root Scene" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104694, 0, 0.280571)
+
+[node name="Root Scene2" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, 0.280571)
+
+[node name="Root Scene3" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, -177.407)
+
+[node name="Root Scene4" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, -364.66)
+
+[node name="Root Scene5" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, -559.2)
+
+[node name="Root Scene6" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, -740.901)
+
+[node name="Root Scene7" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.527, 0, -902.744)
+
+[node name="Root Scene8" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.239461, 0, -902.744)
+
+[node name="Root Scene9" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 155.815, 0, -902.744)
+
+[node name="Root Scene10" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 318.216, 0, -902.744)
+
+[node name="Root Scene11" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.549, 0, -902.744)
+
+[node name="Root Scene12" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.549, 0, -726.534)
+
+[node name="Root Scene13" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.549, 0, -547.965)
+
+[node name="Root Scene14" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.828, 0, -373.556)
+
+[node name="Root Scene15" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.549, 0, -203.162)
+
+[node name="Root Scene16" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 493.549, 0, -26.9992)
+
+[node name="Root Scene17" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 315.17, 0, -26.9992)
+
+[node name="Root Scene18" parent="Moutains" instance=ExtResource("1_6w0di")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 148.607, 0, -26.9992)
+
+[node name="Root Scene19" parent="Moutains" instance=ExtResource("2_b77or")]
+transform = Transform3D(2.43, 0, 0, 0, 2.43, 0, 0, 0, 2.43, 23.7803, 0, 119.609)
+
+[node name="Root Scene20" parent="Moutains" instance=ExtResource("3_k414v")]
+transform = Transform3D(1.89, 0, 0, 0, 1.89, 0, 0, 0, 1.89, 400.011, 0.799357, -91.4028)

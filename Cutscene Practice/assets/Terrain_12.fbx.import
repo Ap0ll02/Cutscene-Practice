@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://xv74ipslkjei"
-path="res://.godot/imported/LPSciFiCharacter_RIG_EVAFemale.fbx-57b96bb660f12a8ec686f15fff9fb957.scn"
+uid="uid://c00k8ek3gbj2k"
+path="res://.godot/imported/Terrain_12.fbx-fb9c173942e56adc518e9214cdb08e84.scn"
 
 [deps]
 
-source_file="res://assets/LPSciFiCharacter_RIG_EVAFemale.fbx"
-dest_files=["res://.godot/imported/LPSciFiCharacter_RIG_EVAFemale.fbx-57b96bb660f12a8ec686f15fff9fb957.scn"]
+source_file="res://assets/Terrain_12.fbx"
+dest_files=["res://.godot/imported/Terrain_12.fbx-fb9c173942e56adc518e9214cdb08e84.scn"]
 
 [params]
 
